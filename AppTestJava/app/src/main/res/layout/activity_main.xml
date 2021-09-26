@@ -12,7 +12,7 @@
         android:layout_height="357dp"
         android:contentDescription="monkejpg"
         android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/buttonFunny"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,11 +20,11 @@
         app:srcCompat="@drawable/monke" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonFunny"
         android:layout_width="194dp"
         android:layout_height="53dp"
         android:onClick="onClick"
-        android:text="когда нажимаешь сюда"
+        android:text="Тыкни сюда"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
